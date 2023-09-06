@@ -20,3 +20,7 @@ PROJETO BACK-END
 
 # Inicializando o prisma com conctar para MongoDB
 `npx prisma init --datasource-provider mongodb`
+
+# Gerabdo cliente do Prisma
+`npx prisma generate`
+*Precisa ser executado **toda vez** que arquivo `schema.prisma` for alterado
