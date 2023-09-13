@@ -21,6 +21,14 @@ PROJETO BACK-END
 # Inicializando o prisma com conctar para MongoDB
 `npx prisma init --datasource-provider mongodb`
 
+# instalando o prisma client
+`npm install @prisma/client`
+
 # Gerabdo cliente do Prisma
 `npx prisma generate`
 *Precisa ser executado **toda vez** que arquivo `schema.prisma` for alterado
+
+# Exibindo os dados cadastrados com prisma studio
+`npx prisma studio`
+* Deve ser executado em um segundo terminal, enquanto o projeto esta sendo executado no priemiro.
+

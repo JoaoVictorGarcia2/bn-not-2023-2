@@ -15,4 +15,10 @@ app.use(cookieParser());
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 
+
+////////////////////////////////////////////////////////////////
+// Rotas da aplicação back-end
+
+import cursoRoute from './routes/curso.js'
+app.use('/curso', cursoRoute)
 export default app;
